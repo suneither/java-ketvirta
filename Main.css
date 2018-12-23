@@ -1,0 +1,31 @@
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+button{
+    padding: 8px;
+    background-color: rgb(124, 28, 28);
+    border: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    background-color: azure;
+}
